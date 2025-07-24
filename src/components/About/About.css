@@ -1,0 +1,18 @@
+.about {
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px 20px;
+  background-color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  scroll-margin-top: 80px; /* makes sure section aligns well with fixed navbar */
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #007bff;
+  object-fit: cover;
+  margin: 20px 0;
+}

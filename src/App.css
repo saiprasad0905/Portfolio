@@ -1,0 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #f8f9fa;
+}
+
+.App {
+  width: 100%;
+  overflow-x: hidden;
+}

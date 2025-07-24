@@ -1,0 +1,15 @@
+portfolio/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── About.js
+│   │   ├── Skills.js
+│   │   ├── Projects.js
+│   │   ├── Certifications.js
+│   │   ├── Contact.js
+│   │   └── Navbar.js
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+├── package.json
+└── README.md
