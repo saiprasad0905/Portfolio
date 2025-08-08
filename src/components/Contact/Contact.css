@@ -1,19 +1,20 @@
 .contact {
   padding: 50px 20px;
-  background-color: #f5f5f5;
+  background-color: #ebe5e5;
   text-align: center;
+  color: #161515;
 }
 
 .contact h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #333;
+  color: #1e1e1e;
 }
 
 .contact p {
   font-size: 1.1rem;
   margin: 10px 0;
-  color: #444;
+  color: #131212;
 }
 
 .contact a {

@@ -1,6 +1,7 @@
 .certifications-section {
   padding: 50px 20px;
-  background-color: #ffffff;
+  background-color: #f0ebeb;
+  color: rgb(25, 25, 25);
 }
 
 .certifications-section h2 {
@@ -14,10 +15,14 @@
   justify-content: center;
   gap: 20px;
 }
-
+@media (prefers-color-scheme: light) {
+  .certifications-section {
+    color: rgb(240, 236, 236);
+  }
+}
 .certification-card {
   width: 250px;
-  background-color: white;
+  background-color: #eae6e6;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

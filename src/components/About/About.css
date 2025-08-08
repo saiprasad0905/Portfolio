@@ -2,7 +2,8 @@
   width: 100%;
   min-height: 100vh;
   padding: 100px 20px;
-  background-color: #fff;
+  background-color: #faf8f8;
+  color: #181717;
   text-align: center;
   box-sizing: border-box;
   scroll-margin-top: 80px; /* makes sure section aligns well with fixed navbar */
