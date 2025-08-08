@@ -1,19 +1,26 @@
 .about {
   width: 100%;
-  min-height: 100vh;
-  padding: 100px 20px;
+  min-height: 70vh;
+  padding: 60px 20px;
   background-color: #faf8f8;
   color: #181717;
   text-align: center;
   box-sizing: border-box;
-  scroll-margin-top: 80px; /* makes sure section aligns well with fixed navbar */
+  scroll-margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.profile-img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid #007bff;
-  object-fit: cover;
-  margin: 20px 0;
+.about-container h1 {
+  font-size: 2.5rem;
+  color: #00bcd4;
+}
+
+.about-container p {
+  font-size: 1.2rem;
+  color: #333;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 20px;
 }

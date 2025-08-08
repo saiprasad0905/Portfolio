@@ -1,17 +1,33 @@
 import React from "react";
+import { ReactTyped } from "react-typed";
 import "./About.css";
-// import profileImg from "../../assets/profile.jpg"; // adjust this if needed
-// import profileImg from "../../assets/profile.jpg";
 
-const About = () => (
-  <section id="about" className="about">
-    <h2>About Me</h2>
-    {/* <img src={profileImg} alt="Profile" className="profile-img" /> */}
-    <p>
-      I am a passionate software developer focused on building impactful web applications and exploring cutting-edge AI technologies.
-      I enjoy solving complex problems and continuously learning new tools and frameworks.
-    </p>
-  </section>
-);
+function About() {
+  return (
+    <section className="about">
+      <div className="about-container">
+        <h1>
+          Hi, I'm{" "}
+          <ReactTyped
+            strings={[
+              "Sai Prasad",
+              "a Web Developer",
+              "an AI Enthusiast",
+              "a Problem Solver"
+            ]}
+            typeSpeed={50}
+            backSpeed={30}
+            loop
+          />
+        </h1>
+        <p>
+          I'm a third-year student and a software developer enthusiast aiming to
+          build innovative AI solutions while staying updated with the latest
+          advancements in technology.
+        </p>
+      </div>
+    </section>
+  );
+}
 
 export default About;
