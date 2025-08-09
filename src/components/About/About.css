@@ -24,3 +24,37 @@
   margin: auto;
   margin-top: 20px;
 }
+
+.about-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-btn {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #00bcd4, #0097a7) !important;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 188, 212, 0.3);
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+}
+
+.about-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 188, 212, 0.4);
+  background: linear-gradient(135deg, #0097a7, #00bcd4);
+}
+
+.about-btn:active {
+  transform: translateY(0);
+}

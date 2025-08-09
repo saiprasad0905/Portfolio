@@ -25,6 +25,20 @@ function About() {
           build innovative AI solutions while staying updated with the latest
           advancements in technology.
         </p>
+        <div className="about-buttons">
+          <button 
+            className="about-btn"
+            onClick={() => document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })}
+          >
+            View Projects
+          </button>
+          <button 
+            className="about-btn"
+            onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
+          >
+            Contact Me
+          </button>
+        </div>
       </div>
     </section>
   );
