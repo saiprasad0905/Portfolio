@@ -1,20 +1,35 @@
 .contact {
   padding: 50px 20px;
-  background-color: #ebe5e5;
+  background: linear-gradient(135deg, #000000, rgba(0, 188, 212, 0.05));
   text-align: center;
-  color: #161515;
+  color: white;
+}
+
+
+.contact::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    linear-gradient(180deg, transparent 0%, rgba(0, 191, 255, 0.007) 50%, transparent 100%);
+  pointer-events: none;
 }
 
 .contact h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #1e1e1e;
+  color: white;
+  
 }
 
 .contact p {
   font-size: 1.1rem;
   margin: 10px 0;
-  color: #131212;
+  color: white
+  ;
 }
 
 .contact a {

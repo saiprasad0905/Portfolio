@@ -7,10 +7,14 @@ function About() {
     <section className="about">
       <div className="about-container">
         <h1>
-          Hi, I'm{" "}
+          
+          
+          Hi ,I'm K Sai Prasad
+          <br />
+            {" "}
           <ReactTyped
             strings={[
-              "Sai Prasad",
+              
               "a Web Developer",
               "an AI Enthusiast",
               "a Problem Solver"

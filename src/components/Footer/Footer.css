@@ -1,6 +1,6 @@
 .footer {
-    background-color: #faf8f8;
-    color: rgb(20, 19, 19);
+    background: linear-gradient(135deg, #000000, rgba(0, 188, 212, 0.05));
+    color: white;
     padding: 20px 0;
     text-align: center;
     font-size: 14px;

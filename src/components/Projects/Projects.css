@@ -1,7 +1,7 @@
 .projects-section {
   padding: 50px 20px;
-  background-color: #f7f3f3;
-  color: #0b0b0b;
+  background: linear-gradient(135deg, #000000, rgba(0, 188, 212, 0.05));
+  color: white;
 }
 
 .projects-section h2 {

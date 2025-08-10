@@ -2,8 +2,11 @@
   width: 100%;
   min-height: 70vh;
   padding: 60px 20px;
-  background-color: #faf8f8;
-  color: #181717;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 188, 212, 0.3)), url('../../assets/back.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
   text-align: center;
   box-sizing: border-box;
   scroll-margin-top: 80px;
@@ -15,22 +18,14 @@
 .about-container h1 {
   font-size: 2.5rem;
   color: #00bcd4;
+  text-shadow: 0 0 8px rgba(0,188,212,0.3);
 }
 
 .about-container p {
   font-size: 1.2rem;
-  color: #333;
   max-width: 600px;
   margin: auto;
   margin-top: 20px;
-}
-
-.about-buttons {
-  margin-top: 30px;
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 .about-btn {
@@ -44,9 +39,6 @@
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(0, 188, 212, 0.3);
-  display: inline-block;
-  position: relative;
-  z-index: 10;
 }
 
 .about-btn:hover {
