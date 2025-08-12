@@ -1,7 +1,7 @@
 import React from 'react';
 import './Skills.css';
 import { FaReact, FaNodeJs, FaPython, FaHtml5, FaCss3Alt, FaJsSquare, FaGithub } from 'react-icons/fa';
-import { SiMysql, SiMongodb } from 'react-icons/si';
+import { SiMysql, SiMongodb, SiPostgresql } from 'react-icons/si';
 
 const Skills = () => (
   <section id="skills" className="skills">
@@ -14,6 +14,7 @@ const Skills = () => (
       <div><FaCss3Alt /> <span>CSS</span></div>
       <div><FaJsSquare /> <span>JavaScript</span></div>
       <div><SiMysql /> <span>MySQL</span></div>
+      <div><SiPostgresql /> <span>PostgreSQL</span></div>
       <div><SiMongodb /> <span>MongoDB</span></div>
       <div><FaGithub /> <span>GitHub</span></div>
       {/* <div><FaKotlin/><span>Kotlin</span></div> */}
