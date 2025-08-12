@@ -9,7 +9,7 @@ It showcases my skills, projects, certifications, and contact information in an 
 - **Smooth Scrolling** – Seamless navigation between sections.
 - **Custom CSS Styling** – Elegant dark theme with teal/cyan accents.
 - **Projects Showcase** – Highlights my development work with images and descriptions.
-- **Certifications Section** – Displays my completed certifications.
+- **Certifications Section** – Displays my completed certifications with hover transforms.
 - **Skills Overview** – Visual representation of my tech stack.
 - **Contact Section** – Allows visitors to reach me via links.
 - **Footer** – Minimal and stylish with quick links.
