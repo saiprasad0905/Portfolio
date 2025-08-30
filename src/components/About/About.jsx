@@ -15,7 +15,7 @@ function About() {
           <ReactTyped
             strings={[
               
-              "an aspiring Web Developer",
+              "an aspiring Full Stack Developer",
               "an AI Enthusiast",
               "a Problem Solver"
             ]}
