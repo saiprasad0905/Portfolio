@@ -3,6 +3,8 @@ import "./Certifications.css";
 import cert1 from "../../assets/certificate1.png";
 import cert2 from "../../assets/certificate2.png";
 import cert3 from "../../assets/certificate3.png";
+import cert4 from "../../assets/certificate4.png";
+
 
 const Certifications = () => {
   return (
@@ -20,6 +22,10 @@ const Certifications = () => {
         <div className="certification-card">
           <img src={cert3} alt="Certificate 3" />
           <p>Oracle certified foundations Associate</p>
+        </div>
+        <div className="certification-card">
+          <img src={cert3} alt="Certificate 4" />
+          <p>Essentlals Automation Proessional by Automation Anywhere</p>
         </div>
       </div>
     </section>
