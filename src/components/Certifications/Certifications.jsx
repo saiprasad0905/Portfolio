@@ -24,7 +24,7 @@ const Certifications = () => {
           <p>Oracle certified foundations Associate</p>
         </div>
         <div className="certification-card">
-          <img src={cert3} alt="Certificate 4" />
+          <img src={cert4} alt="Certificate 4" />
           <p>Essentlals Automation Proessional by Automation Anywhere</p>
         </div>
       </div>
