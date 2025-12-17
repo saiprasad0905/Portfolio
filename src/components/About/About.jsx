@@ -32,6 +32,7 @@ function About() {
         <div className="about-buttons">
           <button 
             className="about-btn"
+             style={{ marginRight: '10px' }}
             onClick={() => document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })}
           >
             View Projects
