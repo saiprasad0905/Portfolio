@@ -17,7 +17,8 @@ function About() {
               
               "an aspiring Full Stack Developer",
               "an AI Enthusiast",
-              "a Problem Solver"
+              "a Problem Solver",
+              "a Software Engineering Aficionado"
             ]}
             typeSpeed={50}
             backSpeed={30}
@@ -25,7 +26,7 @@ function About() {
           />
         </h1>
         <p>
-          I'm a third-year student and a software developer enthusiast aiming to
+          I'm a final year Computer Science and Engineering with specialisation in AI systems for Visual Intelligence undergraduate and a software developer enthusiast aiming to
           build innovative AI solutions while staying updated with the latest
           advancements in technology.
         </p>
