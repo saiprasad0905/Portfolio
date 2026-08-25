@@ -19,8 +19,8 @@ const Skills = () => (
       <div><SiPostgresql /> <span>PostgreSQL</span></div>
       <div><SiMongodb /> <span>MongoDB</span></div>
       <div><FaGithub /> <span>GitHub</span></div>
-      <div><SiLangchain /> <span>RAG</span></div>
       <div><SiOpencv /> <span>OpenCV</span></div>
+      <div><SiLangchain /> <span>RAG</span></div>
       <div><FaBrain /> <span>CNN</span></div>
       
       {/* Add more as needed */}
