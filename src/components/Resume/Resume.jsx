@@ -10,7 +10,7 @@ const Resume = () => {
     <section id="resume" className="resume-section">
       <h2>Resume</h2>
       <p className="resume-subtitle">
-        View or download my latest resume below.
+        View or Download my latest resume below.
       </p>
       <div className="resume-actions">
         <a
