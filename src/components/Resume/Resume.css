@@ -1,0 +1,52 @@
+.resume-section {
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #000000, rgba(0, 188, 212, 0.05));
+  color: white;
+  text-align: center;
+}
+
+.resume-section h2 {
+  margin-bottom: 10px;
+}
+
+.resume-subtitle {
+  margin-bottom: 25px;
+  opacity: 0.85;
+}
+
+.resume-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.resume-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.resume-btn:hover {
+  transform: scale(1.05);
+}
+
+.view-btn {
+  background-color: #00bcd4;
+  color: #000000;
+}
+
+.download-btn {
+  background-color: transparent;
+  color: #00bcd4;
+  border: 2px solid #00bcd4;
+}
+
+@media (prefers-color-scheme: light) {
+  .resume-section {
+    color: white;
+  }
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Skills.css';
-import { FaReact, FaPython, FaHtml5, FaCss3Alt, FaJsSquare, FaGithub, FaJava } from 'react-icons/fa';
-import { SiMysql, SiMongodb, SiPostgresql, SiSpringboot, SiKotlin } from 'react-icons/si';
+import { FaReact, FaPython, FaHtml5, FaCss3Alt, FaJsSquare, FaGithub, FaJava, FaBrain } from 'react-icons/fa';
+import { SiMysql, SiMongodb, SiPostgresql, SiSpringboot, SiKotlin, SiOpencv, SiLangchain } from 'react-icons/si';
 
 const Skills = () => (
   <section id="skills" className="skills">
@@ -19,6 +19,10 @@ const Skills = () => (
       <div><SiPostgresql /> <span>PostgreSQL</span></div>
       <div><SiMongodb /> <span>MongoDB</span></div>
       <div><FaGithub /> <span>GitHub</span></div>
+      <div><SiLangchain /> <span>RAG</span></div>
+      <div><SiOpencv /> <span>OpenCV</span></div>
+      <div><FaBrain /> <span>CNN</span></div>
+      
       {/* Add more as needed */}
     </div>
   </section>
